@@ -1,0 +1,46 @@
+name: strokecare
+description: "A new Flutter project for stroke rehabilitation management."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# Versioning for your application
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0" # Specify a range for compatibility
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  http: ^0.13.6
+  image_picker: ^0.8.6
+  mask_text_input_formatter: ^2.9.0
+  path_provider: ^2.0.14
+  convex_bottom_bar: ^3.0.0
+  permission_handler: ^10.2.0
+  pdf: ^3.10.8
+  file_picker: ^5.2.2 
+  
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^4.0.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/images/app_logos.png"
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/images/
+
+# Uncomment the below lines if needed for linting customization
+# analysis_options:
+#   include: package:flutter_lints/flutter.yaml
+#   linter:
+#     rules:
+#       avoid_print: false # Disable avoid_print rule
+#       prefer_single_quotes: true # Enable single quotes for strings
